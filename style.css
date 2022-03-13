@@ -128,6 +128,7 @@
   .somerandominformation {
     font-size: 30px;
     font-weight: bolder;
+    margin-top: 20px;
   }
 
 
@@ -143,8 +144,24 @@
     display: flex;
     flex-direction:column;
     margin: auto;
-    
   }
+
+  .inspiringquote {
+    font-size: 30px;
+    font: light italic;
+    font-color: #1f2937;
+    width: 650px;
+    align-self: center;
+    margin-top: 60px;
+  }
+  .Thor {
+    font: bolder;
+    font-weight: bolder;
+    align-self:flex-end;
+    margin-right: 220px;
+  }
+
+
   .box4call {
     height: 300px;
     background: #3882f6;
