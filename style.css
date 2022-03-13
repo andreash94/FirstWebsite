@@ -76,10 +76,6 @@
   }
   
 
-
-
-
-
   .Headerlogo,
   .websiteawesome,
   .websitesubtext,
@@ -92,16 +88,52 @@
 
   }
 
-
   .box2white {
     height: 300px;
     width: 1000px;
     padding: 16px;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
+    align-items: center;
     margin: auto;
     
   }
+  .box2-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .box2-2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .image1,
+  .image2,
+  .image3,
+  .image4 {
+    border: 4px solid #3882f6;
+    padding: 40px;
+    margin: 20px;
+  }
+
+  .subtext1,
+  .subtext2,
+  .subtext3,
+  .subtext4 {
+    width: 120px;
+    margin: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .somerandominformation {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+
+
+
+
 
   .box3grey {
     height: 300px;
